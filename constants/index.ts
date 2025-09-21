@@ -1,5 +1,7 @@
 export const API_BASE_URL = "http://localhost:8000/api"; 
 export const LISTINGS_ENDPOINT = `${API_BASE_URL}/listings/`;
+export const HERO_BG = "heroBg";
+export const FILTERS = ["Top Villa", "Self Check-in", "Countryside", "Mansion", "Apartments"];
 
 export const APP_NAME = "ALX Listing App";
 export const BOOK_NOW_TEXT = "Book Now";
@@ -369,3 +371,5 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps [] = [{
     discount: ""
   }
 ];
+
+
